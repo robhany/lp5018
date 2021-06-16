@@ -2,7 +2,7 @@
 name = "lp5018"
 version = "0.1.0"
 authors = ["Robert Hanyecz <rh@wertschuetz.de>"]
-categories = ["embedded", "led driver", "no-std"]
+categories = ["embedded", "led-driver", "no-std"]
 description = "no_std driver for the lp5018 i2c LED driver"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
