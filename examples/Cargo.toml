@@ -1,0 +1,29 @@
+[package]
+name = "lp5018test"
+version = "0.1.0"
+authors = ["Robert Hanyecz <rh@wertschuetz.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cortex-m = "0.7.2"
+cortex-m-rt = "0.6.14"
+stm32l4xx-hal = { version = "0.6.0", features = ["rt", "stm32l4x3" ] }
+cortex-m-semihosting = "0.3.7"
+panic-halt = "0.2.0"
+panic-semihosting = "0.5.6"
+lp5018 = { path = "../" }
+
+[dependencies.embedded-hal]
+version = "0.2.5"
+features = ["unproven"]
+
+[[bin]]
+name = "lp5018test"
+test = false
+bench = false
+
+[profile.release]
+codegen-units = 1
+lto = true
