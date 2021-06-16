@@ -16,7 +16,7 @@ Add this to your Cargo.toml:
 
 ```toml
 [dependencies]
-rand = "0.8.0"
+lp5018 = "0.1.2"
 ```
 
 And this to your main.rs
