@@ -2,8 +2,12 @@
 name = "lp5018"
 version = "0.1.0"
 authors = ["Robert Hanyecz <rh@wertschuetz.de>"]
+categories = ["embedded", "led driver", "no-std"]
+description = "no_std driver for the lp5018 i2c LED driver"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
 edition = "2018"
-
+repository = "https://github.com/robhany/lp5018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
