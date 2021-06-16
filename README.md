@@ -1,6 +1,6 @@
 # lp5018
 
-This crate is a no_std driver for the lp5018 LED driver.
+This crate is a no_std driver for the lp5018 i2c LED driver.
 
 ## Datasheet
 
