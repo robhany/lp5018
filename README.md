@@ -1,3 +1,5 @@
+![build_workflow](https://github.com/robhany/lp5018/actions/workflows/rust.yml/badge.svg)
+
 # lp5018
 
 This crate is a no_std driver for the lp5018 i2c LED driver.
