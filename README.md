@@ -1,4 +1,8 @@
 ![build_workflow](https://github.com/robhany/lp5018/actions/workflows/rust.yml/badge.svg)
+[![Crates.io Version][crates-io-badge]][crates-io]
+[![Crates.io Downloads][crates-io-download-badge]][crates-io-download]
+![No Std][no-std-badge]
+
 
 # lp5018
 
@@ -45,3 +49,9 @@ And this to your main.rs
         timer.delay_ms(500_u32);
     }
 ```
+<!-- Badges -->
+[crates-io]: https://crates.io/crates/lp5018
+[crates-io-badge]: https://img.shields.io/crates/v/lp5018.svg?maxAge=3600
+[crates-io-download]: https://crates.io/crates/lp5018
+[crates-io-download-badge]: https://img.shields.io/crates/d/lp5018.svg?maxAge=3600
+[no-std-badge]: https://img.shields.io/badge/no__std-yes-blue
