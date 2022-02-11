@@ -1,6 +1,6 @@
 [package]
 name = "lp5018"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Robert Hanyecz <rh@wertschuetz.de>"]
 categories = ["embedded", "led-driver", "no-std"]
 description = "no_std driver for the lp5018 i2c LED driver"
