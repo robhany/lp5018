@@ -22,7 +22,7 @@ Add this to your Cargo.toml:
 
 ```toml
 [dependencies]
-lp5018 = "0.1.3"
+lp5018 = "0.1.4"
 ```
 
 And this to your main.rs

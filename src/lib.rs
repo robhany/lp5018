@@ -32,7 +32,7 @@ impl ConfigRegisters {
 }
 
 #[repr(u8)]
-#[derive(Clone)]
+#[derive(Copy, Clone)]
 pub enum Output {
     Out00 = 0x0F,
     Out01,
@@ -56,7 +56,7 @@ pub enum Output {
 
 impl Output {
     fn as_u8_value(&self) -> u8 {
-        self.clone() as u8
+        *self as u8
     }
 }
 
